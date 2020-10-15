@@ -86,4 +86,4 @@ client.connect(err => {
         res.send('ok i am cool')
       })
 });
-app.listen(port)
+app.listen(process.env.PORT || port)
